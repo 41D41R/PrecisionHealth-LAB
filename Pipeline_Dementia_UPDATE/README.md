@@ -22,6 +22,7 @@ The file contains 78 columns separated by tabs, here is an example:
 # Generation of individual Sacbe files per gene
 This process is done using the [sacbe_individual.sh](https://github.com/aldairarchez/CGJ_Lab/blob/main/Pipeline_Dementia_UPDATE/Codes/sacbe_individual.sh)
 <img src="https://github.com/aldairarchez/CGJ_Lab/blob/main/Pipeline_Dementia_UPDATE/Images/Individual_sacbe.jpeg">
+
 The script take as input the file with the Sacbe annotations and the genes coordinates obtained from [UCSC Genome browser](https://genome.ucsc.edu/)
 
 ```bash
