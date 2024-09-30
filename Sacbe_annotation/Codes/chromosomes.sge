@@ -17,7 +17,7 @@
 #$ -o chromosomes.out
 # Send an email after the job has finished
 #$ -m e
-#$ -M aldarchez26@gmail.com
+#$ -M aldiraldirhm@gmail.com
 #!/bin/bash
 module load bcftools/1.10.2
 # Directorio que contiene los archivos VCF
