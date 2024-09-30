@@ -17,7 +17,7 @@
 #$ -o sacbe.out
 # Send an email after the job has finished
 #$ -m e
-#$ -M aldarchez26@gmail.com
+#$ -M aldiraldirhm@gmail.com
 #!/bin/bash
 # Nombre del archivo
 archivo="Genes.csv"
