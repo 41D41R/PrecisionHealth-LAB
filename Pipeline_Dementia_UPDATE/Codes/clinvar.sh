@@ -5,7 +5,7 @@ module load bcftools/1.10.2
 gene_list=($(cat GENES.txt))
 
 #output file
-output_directory=/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/clinvar_genes
+output_directory=/mnt/Timina/cgonzaga/ahernandezm/g6pd/clinvar_variants
 for gene in "${gene_list[@]}"; do
 
   # filtrando por gen y significancia en clinvar, la opcion grep -w omite palabras que empiezan igual y -E excluye similitudes
