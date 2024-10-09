@@ -32,7 +32,7 @@ for gene in gene_list:
     filtered_data = data[data.apply(lambda row: any(contains_exact_keyword(str(value), keywords) for value in row), axis=1)]
 
     # Especificar el archivo de salida
-    output_file = f'/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/LOF_files/{gene}_LOF_annotation.tsv'
+    output_file = f'/mnt/Timina/cgonzaga/ahernandezm/g6pd/LOF_variants/{gene}_LOF_annotation.tsv'
 
     # Guardar el DataFrame filtrado como un archivo TSV
     filtered_data.to_csv(output_file, sep='\t', index=False, encoding='utf-8')
