@@ -7,12 +7,12 @@ with open('LOF_genes.txt', 'r') as file:
 # Iterar sobre cada gen en la lista
 for gene in gene_list:
     # Definir los archivos de entrada y salida
-    sacbeLOF_file = f"/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/LOF_files/{gene}_LOF_annotation.tsv"
-    clinvar_file = f"/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/clinvar_genes/{gene}_clinvar.tsv"
+    sacbeLOF_file = f"/mnt/Timina/cgonzaga/ahernandezm/g6pd/LOF_variants/{gene}_LOF_annotation.tsv"
+    clinvar_file = f"/mnt/Timina/cgonzaga/ahernandezm/g6pd/clinvar_variants_updated/{gene}_clinvar.tsv"
     #output without clinvar significance filter
-    output_file_nonfiltered = f"/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/LOF_files/{gene}_inclinvar_nonfiltered.tsv"
+    output_file_nonfiltered = f"/mnt/Timina/cgonzaga/ahernandezm/g6pd/LOF_variants/{gene}_inclinvar_nonfiltered.tsv"
     #output of pathogenic and likely pathogenic variants
-    output_file_filtered = f"/mnt/Timina/cgonzaga/marciniega/Dementia_MCPS/LOF_files/{gene}_inclinvar.tsv"
+    output_file_filtered = f"/mnt/Timina/cgonzaga/ahernandezm/g6pd/LOF_variants/{gene}_inclinvar.tsv"
 
     # Leer los archivos en dataframes
     sacbeLOF_df = pd.read_csv(sacbeLOF_file, sep='\t')
